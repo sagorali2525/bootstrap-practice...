@@ -1,0 +1,257 @@
+div#navbarSupportedContent ul {
+    margin-left: auto;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 4, 4);
+    font-weight: 500;
+}
+a:hover {
+    color: rgb(255, 16, 16);
+}
+.nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255 58 58 / 70%);
+}
+.navbar-light .navbar-brand {
+    color: rgb(255 4 4 / 90%);
+}
+a {
+    color: #000000;
+}
+.navbar-brand{
+    font-family: 'pecifico', cursive;
+    font-size: 2.2rem;
+    color: rgb(216, 25, 25);
+}
+.get-button .btn {
+    background-color: #ff0e0e;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 8px 27px;
+    margin-top: 9px;
+    align-items: center;
+}
+a.dropdown-item {
+    color: #ff10ed;
+    font-size: 16px;
+}
+button.btn:focus {
+    box-shadow: none;
+}
+button.btn:hover {
+    background-color: #8defef;
+    transition: 0.3s all ease-in-out;
+}
+.bg-light {
+    background-color: #e4e4e4!important;
+}
+
+/* navber end */
+
+
+/* carousel */
+.carousel-indicators [data-bs-target] {
+    border-radius: 100px;
+    width: 4%;
+    height: 11px;
+    border-radius: 40px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    top: 194px;
+}
+img, svg {
+    vertical-align: middle;
+    height: 533px;
+}
+/* carousel */
+
+
+/* card */
+.card img {
+    height: 180px;
+}
+/* .row .card {
+    margin-top: 20px;
+} */
+.card{
+    border: none;
+}
+ .card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 15px 15px rgb(204, 32, 32);
+    transition: .4s;
+} 
+.card{
+    box-shadow: 0 15px 15px rgb(36, 255, 219);
+}
+.card-one {
+    background-color: #212529;
+}
+.card-body {
+    background-color: #f3f9ff;
+}
+.card-title {
+    margin-bottom: .5rem;
+    color: black;
+    font-size: 22px;
+}
+
+/* card */
+
+/* accordion */
+/* acordion start here */
+.accordion-button{
+    font-size: 15px;
+    font-weight: 700;
+    color: #555555;
+    text-transform: uppercase;
+
+}
+.accordion-button:focus{
+    outline: none;
+    box-shadow: none;
+
+}
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #7cdfdf;
+}
+section#accordion {
+    /* margin-top: 20px; */
+    background-color: #0000007a;
+}
+.accordion-body {
+    padding: 1rem 1.25rem;
+    color: black;
+    font-weight: 500;
+}
+/* acordion end here */
+
+
+
+/* collapse */
+ 
+.btn-success {
+    color: #fff;
+    background-color: #8c3131;
+    border-color: #630101;
+    margin-top: 15px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+} 
+.cardian {
+    border: 1px solid;
+    /* margin: 112px; */
+    margin-left: 116px;
+    margin-right: 116px;
+    /* padding: 0px; */
+    padding-bottom: 22px;
+    padding-top: 9px;
+    border: 1px solid;
+    margin: 0px 120px;
+    background-color: #a5a5a5;
+}
+.row h1 {
+    text-align: center;
+    margin-top: 20px;
+    text-align: center;
+    color: #8cff19;
+    background-color: #38445a;
+    width: 586px;
+    height: 34px;
+    margin-left: 278px;
+    font-size: 25px;
+}
+.colombia {
+    background-color: #0000007a;
+}
+
+/* collapse */
+
+
+/* badge */
+
+.btn .badge {
+    position: relative;
+    top: -18px;
+    left: 20px;
+    border-radius: 25px;
+}
+.breadcrumb-item.active {
+    color: #000000;
+}
+.alert-warning {
+    color: #000000;
+    background-color: #269993;
+    border-color: #7cbce7;
+}
+.bg-secondary {
+    background-color: #ff0000!important;
+} */
+/* badge */
+
+
+/* group start */
+
+
+ .btn-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 35px;
+}
+.btn-info {
+    color: #000;
+    background-color: #fb78d9;
+    border-color: #fb78d9;
+}
+.btn-primary {
+    color: #ffffff;
+    background-color: #5f472f;
+    border-color: #deffd3;
+    margin-left: 5px;
+}
+.btn-secondary {
+    color: #000;
+    background-color: #ffffff;
+    border-color: #6c757d;
+} 
+
+/* group end*/
+li.breadcrumb-item a {
+    color: #0d6efd;
+}
+section#colombiya {
+    background-color: #0000007a;
+}
+.allert {
+    border: 1px solid;
+    margin: 0 119px;
+    /* padding: 0px 0; */
+}
+.allert .row {
+    padding: -21px;
+    margin: 20px 0px;
+}
+.h5, h5 {
+    font-size: 2.25rem;
+    color: #ff6a00;
+}
+.card-body p {
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+}
